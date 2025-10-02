@@ -49,4 +49,4 @@ It intentionally keeps a small dependency surface and provides both interactive 
 
 ### From GitHub (recommended during development)
 ```bash
-pip install git+https://github.com/<your-username>/rtve-subdl2.git
+pip install git+https://github.com/Hzifa33/rtve-subdl.git
