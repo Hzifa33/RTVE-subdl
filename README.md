@@ -23,7 +23,7 @@ To use this script, you'll need Python 3.7 or newer.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Hzifa33/rtve-subdl.git](https://github.com/Hzifa33/rtve-subdl.git)
+    git clone https://github.com/Hzifa33/rtve-subdl.git
     ```
 
 2.  **Navigate to the project directory:**
@@ -53,15 +53,15 @@ python rtve-subdl.py
 **Example:**
 ```
 Please enter the RTVE video page URL:
-> [https://www.rtve.es/play/videos/el-ministerio-del-tiempo/ministerio-del-tiempo-1-capitulo-1-tiempo/3013349/](https://www.rtve.es/play/videos/el-ministerio-del-tiempo/ministerio-del-tiempo-1-capitulo-1-tiempo/3013349/)
+> https://www.rtve.es/play/videos/el-ministerio-del-tiempo/ministerio-del-tiempo-1-capitulo-1-tiempo/3013349/
 ```
 
 ### Direct Mode
 
-Pass the video URL directly as a command-line argument. Make sure to enclose the URL in quotes.
+Pass the video URL directly as a command-line argument. **Make sure to enclose the URL in quotes.**
 
 ```bash
-python rtve-subdl.py "[https://www.rtve.es/play/videos/some-video-url/](https://www.rtve.es/play/videos/some-video-url/)"
+python rtve-subdl.py "https://www.rtve.es/play/videos/some-video-url/"
 ```
 
 The script will then handle the rest, and the downloaded subtitle files will be saved in the same directory.
